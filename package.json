@@ -5,7 +5,7 @@
   "scripts": {
     "test": "mocha \"test/**/*_spec.js\""
   },
-  "author": "bmdevx",
+  "author": "flight2k",
   "license": "GNU GPL3",
   "keywords": [
     "node-red",
@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bmdevx/node-red-contrib-2fa.git"
+    "url": "https://github.com/flight2k/node-red-contrib-2fa.git"
   }
 }
