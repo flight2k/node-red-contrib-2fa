@@ -31,7 +31,8 @@ module.exports = function (RED) {
                 pay.verified = speakeasy.totp.verify({
                     secret: secret,
                     encoding: 'base32',
-                    token: (typeof pay.token === 'number' ? pay.token.toString() : pay.token)
+                    token: (typeof pay.token === 'number' ? pay.token.toString() : pay.token),
+                    window: config.window || 1
                 });
             }
 
